@@ -62,7 +62,7 @@ body {
   margin: 0;
   display: flex;
   align-items: center;
-  background: url(../image/RUB.jpg);
+  background: url(./image/RUB.jpg);
   background-size: cover;
   border: none;
   border-radius: 50%;

@@ -10,7 +10,7 @@ const date = document.querySelector(".main__current-date");
 
 const changeBackground = (content, select) => {
   content.textContent = curr[select.value];
-  content.style.backgroundImage = `url(../image/${select.value}.jpg)`;
+  content.style.backgroundImage = `url(./image/${select.value}.jpg)`;
 };
 
 selectedCurrency.addEventListener("change", () =>
