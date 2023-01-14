@@ -1,4 +1,4 @@
-import { URL as url, CURRENCY as curr } from "../utils/constants.js";
+import { URL as url, CURRENCY as curr } from "./utils/constants.js";
 
 const convertCurrency = document.querySelector("#convert");
 const convertedCurrency = document.querySelector("#converted");
