@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Конвертер валют</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1 class="main__title">
+        Конвертер валют по состоянию на
+        <span class="main__current-date"></span>
+      </h1>
+      <div class="block">
+        <div class="block__item">
+          <div class="block__item-text" id="convert">Российский рубль</div>
+          <input class="block__item-field" type="number" id="input"/>
+          <select class="block__item-currency" id="from">
+            <option value="RUB">RUB</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+          </select>
+        </div>
+        <div class="block__item">
+          <div class="block__item-text" id="converted">Российский рубль</div>
+          <input class="block__item-field" id="result" readonly />
+          <select class="block__item-currency" id="to">
+            <option value="RUB">RUB</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

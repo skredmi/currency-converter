@@ -1,0 +1,106 @@
+body {
+  margin: auto;
+  padding: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #947b84;
+  font-family: "Ubuntu Mono", monospace, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 10px;
+}
+
+.main {
+  width: 800px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 4px solid #38282e;
+  border-radius: 25px;
+  background-color: #4f3841;
+  padding: 20px;
+}
+
+.main__title {
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.main__current-date {
+  font-size: 23px;
+  color: #e0d5d9;
+}
+
+.block {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+
+.block__item {
+  width: 520px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e0d5d9;
+  margin: 0;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.block__item-text {
+  width: 30px;
+  height: 50px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  background: url(../image/RUB.jpg);
+  background-size: cover;
+  border: none;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 50px;
+  box-sizing: border-box;
+  font-size: 19px;
+  line-height: 18px;
+  margin-right: 50px;
+}
+
+.block__item-field {
+  width: 100px;
+  height: 30px;
+  border: 2px solid #948e90;
+  font-size: 20px;
+  color: #948e90;
+  padding-left: 10px;
+}
+
+.block__item-field:focus {
+  outline: none;
+  border: 3px solid #575556;
+}
+
+.block__item-field::-webkit-outer-spin-button,
+.block__item-field::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.block__item-currency {
+  border: 2px solid #948e90;
+  font-size: 20px;
+}
+
+.block__item-currency:focus {
+  outline: none;
+  border: 3px solid #575556;
+}
